@@ -1,13 +1,13 @@
 #mailchimp {
 	background-image: url("http://res.cloudinary.com/hrscywv4p/image/upload/c_limit,fl_lossy,h_1500,w_2000,f_auto,q_auto/v1/1322653/chalkboard_1_no23b6.jpg")
-    background: #000000;
+    background: #fff;
 	color: #fff;
 	padding: 20px 15px;
 }
 	#mailchimp input {
 		 border: medium none;
     color: #7bc4c4;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Amatic SC', cursive;
     font-size: 16px;
     font-style: normal;
     margin-bottom: 10px;
