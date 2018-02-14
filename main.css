@@ -1,0 +1,121 @@
+/*
+* === REMOVED #mailchimp. ID WAS NOT BEING USED, REPLACED IN CLASSES BELOW   ===
+
+ #mailchimp {
+        background-image: url("http://res.cloudinary.com/hrscywv4p/image/upload/c_limit,fl_lossy,h_1500,w_2000,f_auto,q_auto/v1/1322653/chalkboard_1_no23b6.jpg");
+        background: #fff;
+        color: #fff;
+        padding: 20px 15px;
+} */
+
+/* -- Customized Container for the Form--  */
+@media (min-width: 48em) {
+    .container {
+        max-width: 46rem;
+    }
+}
+
+.container-narrow > hr {
+    margin: 2rem 0;
+}
+
+/* end container */
+
+/*
+* === REPLACED FORM COMPONENTS WITH THE .btn-brand-* CLASSES BELOW   ===
+
+#mailchimp input {
+    border: medium none;
+    color: #7bc4c4;
+    font-family: 'Amatic SC', cursive;
+    font-size: 16px;
+    font-style: normal;
+    margin-bottom: 10px;
+    padding: 8px 10px;
+    width: 300px;
+    border-radius: 20px;
+    -moz-border-radius: 20px;
+    -webkit-border-radius: 20px;}
+
+#mailchimp input.name {
+    background: #fff}
+
+#mailchimp input.email {
+    background: #fff}
+
+#mailchimp input[type="submit"] {
+    background: #75BBBB;
+    color: #fff;
+    cursor: pointer;
+    font-size: 15px;
+    width: 35%;
+    padding: 8px 0;}
+
+#mailchimp input[type="submit"]:hover {
+    background: #7bc4c4}
+*/
+
+/* --Reuse this class to give the brand blue color to any element. i.e. <div class="brand-blue">THIS IS BLUE</div>  */
+.brand-blue {
+    background: #75BBBB;
+    color: #ffffff;
+}
+
+/* --styles any button to the brand blue, round "pill" style. font-size auto adjusts by the window size-- */
+.btn-brand-round {
+    background: #75BBBB;
+    color: #ffffff;
+    font-family: 'Amatic SC', cursive;
+    font-size: 1.1rem;
+    border-radius: 30px;
+}
+
+/* --darkens brand blue on hover-- */
+.btn-brand-round:hover {
+    background: #7bc4c4;
+    color: #ffffff;
+    font-size: 0.8571em;
+}
+
+/* --apply this class to label for brand font, brand color, and label size-- */
+.label-brand-font {
+    font-family: 'Amatic SC', cursive;
+    font-size: 1.75rem;
+    color: #7bc4c4;
+}
+
+/* --
+    form-control class is used to style any bootstrap form. customized the class
+    to provide customized size, color, etc. attributes to the class
+ -- */
+.form-control {
+    background-color: transparent;
+    border: 1px solid #E3E3E3;
+    border-radius: 30px;
+    color: #2c2c2c;
+    line-height: normal;
+    font-size: 0.8571em;
+    -webkit-transition: color 0.3s ease-in-out, border-color 0.3s ease-in-out, background-color 0.3s ease-in-out;
+    -moz-transition: color 0.3s ease-in-out, border-color 0.3s ease-in-out, background-color 0.3s ease-in-out;
+    -o-transition: color 0.3s ease-in-out, border-color 0.3s ease-in-out, background-color 0.3s ease-in-out;
+    -ms-transition: color 0.3s ease-in-out, border-color 0.3s ease-in-out, background-color 0.3s ease-in-out;
+    transition: color 0.3s ease-in-out, border-color 0.3s ease-in-out, background-color 0.3s ease-in-out;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+/* --gives the 'first name', 'last name' 'email' placeholders in the form a faded brand blue style --*/
+.form-control::placeholder {
+    color: #7bc4c4;
+    opacity: .30;
+    cursor: pointer;
+}
+
+/* -- on focus (click) the form input boxes will highlight with the brand blue when selected */
+.form-control:focus {
+    border: 1px solid #7bc4c4;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    outline: 0 !important;
+    color: #2c2c2c;
+}
